@@ -1,6 +1,6 @@
 {% set name = "sybil" %}
-{% set version = "5.0.2" %}
-{% set sha256 = "127500e510ba3325b3a613783171040a1d3d20866ac16c9af42af96c69cc7dec" %}
+{% set version = "5.0.3" %}
+{% set sha256 = "20dfe3a35a8d1ffcb4311434d1abf38c030c91064d75ff6b56ddd1060e08e758" %}
 
 package:
   name: {{ name|lower }}
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/simplistix/sybil
-  summary: 'Automated testing for the examples in your documentation.'
+  summary: Automated testing for the examples in your documentation.
   description: |
     This library provides a way to check examples in your code and documentation
     by parsing them from their source and evaluating the parsed examples as part
