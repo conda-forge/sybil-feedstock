@@ -1,6 +1,6 @@
 {% set name = "sybil" %}
-{% set version = "6.0.1" %}
-{% set sha256 = "98df06ffc3feae8e1e0b8cf28857bf01c684e1b58bb09b06db75f6db113c33f4" %}
+{% set version = "6.0.2" %}
+{% set sha256 = "8dd4d9675551482a25a0b3a0c0f602a7de4903718305253d56f9b7c3e663a81c" %}
 
 package:
   name: {{ name|lower }}
