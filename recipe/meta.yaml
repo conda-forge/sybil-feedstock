@@ -1,6 +1,6 @@
 {% set name = "sybil" %}
-{% set version = "9.0.0" %}
-{% set sha256 = "0856c253e40d448d6e15d89044ef34c8b5d1f63f685f9371f4bbc9f75f072fa5" %}
+{% set version = "9.1.0" %}
+{% set sha256 = "c63c14c9843c62fa994c777eb48c0632f62be5c499ecbe05c1d130157ed6a6ca" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
