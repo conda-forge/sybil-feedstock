@@ -1,6 +1,6 @@
 {% set name = "sybil" %}
-{% set version = "10.0.1" %}
-{% set sha256 = "319eed013ebe848f8c57ce79c1ed526e506d952c778693979bc509513ae72a68" %}
+{% set version = "10.1.0" %}
+{% set sha256 = "062249c8886a0ab19e45d1c3afd5631ec806e7a95cf5153c96560f5e47756cbd" %}
 {% set python_min = "3.11" %}
 
 package:
