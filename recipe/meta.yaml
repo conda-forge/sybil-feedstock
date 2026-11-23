@@ -1,6 +1,6 @@
 {% set name = "sybil" %}
-{% set version = "10.1.0" %}
-{% set sha256 = "062249c8886a0ab19e45d1c3afd5631ec806e7a95cf5153c96560f5e47756cbd" %}
+{% set version = "10.2.0" %}
+{% set sha256 = "b2a41dd63aad5f6a348d95b1e957361df2bd0f5d88db071b14854411cb4cdecd" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
